@@ -11,15 +11,16 @@ const firebaseconfig1 = {
   const firebaseApp1 = firebase.initializeApp(firebaseconfig1, "app1");
   const Primarydatabase = firebaseApp1.database();
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig2 = {
-  apiKey: "AIzaSyA_h3rxTPxeLMueIIQGINaW90QaqouZ3RM",
-  authDomain: "iron-man3000.firebaseapp.com",
-  databaseURL: "https://iron-man3000-default-rtdb.firebaseio.com",
-  projectId: "iron-man3000",
-  storageBucket: "iron-man3000.appspot.com",
-  messagingSenderId: "243109268702",
-  appId: "1:243109268702:web:674fe93107f0d032bc864f",
-  measurementId: "G-9NE3G0KY6J"
+  apiKey: "AIzaSyAl4r-gOx-aTzMsJ4rJhkS2mb9v3PoCP1Q",
+  authDomain: "dr-strange3.firebaseapp.com",
+  databaseURL: "https://dr-strange3-default-rtdb.firebaseio.com",
+  projectId: "dr-strange3",
+  storageBucket: "dr-strange3.appspot.com",
+  messagingSenderId: "110961068130",
+  appId: "1:110961068130:web:7c829a056a68e397caa93b",
+  measurementId: "G-E4FKS2SP3H"
 };
   const firebaseApp2 = firebase.initializeApp(firebaseConfig2, "app2");
   const Secondarydatabase = firebaseApp2.database();
